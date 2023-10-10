@@ -1,0 +1,12 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://localhost:3306/test?serverTimezone=Asia/Seoul
+#    username: root
+#    password: 1234
+   url: jdbc:h2:mem:test
+   username: sa
+   password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
