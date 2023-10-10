@@ -12,7 +12,7 @@ class DemoApplicationTests {
 
     @Test
     void test() {
-        Assertions.assertEquals(1+1, 3);
+        Assertions.assertEquals(1+1, 2);
     }
 
 }
