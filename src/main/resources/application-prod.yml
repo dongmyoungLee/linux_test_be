@@ -1,6 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://34.133.27.41:3306/test?serverTimezone=Asia/Seoul
-    username: test
+    url: jdbc:mysql://172.17.0.2:3306/test?serverTimezone=Asia/Seoul
+    username: root
     password: 1234
-
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
